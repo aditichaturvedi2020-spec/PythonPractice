@@ -11,5 +11,3 @@ print(student.values())
 print(student.items())
 # get
 print(student.get("name"))
-# update
-print(student.update{"state" : "Mumbai"})

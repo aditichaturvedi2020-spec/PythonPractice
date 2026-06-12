@@ -14,7 +14,7 @@ print(type(tup2))   # int
 
 # but to represnt single tuple's type as tuple we do
 
-tup3 = (1,)
+tup3 = (1,)        #tuple
 print(type(tup3))
 
 # Tuples are immutable (once created can't be changed)
@@ -22,3 +22,4 @@ print(type(tup3))
 tuple = ("Aditi", "Khushi", "Kelly", "Manisha")
 tuple[1] = "Nalini"
 print(tuple)
+

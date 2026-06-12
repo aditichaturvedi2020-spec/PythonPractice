@@ -8,4 +8,4 @@ print(y+5)
 
 a = input("enter a number: ")
 b = float(a)
-print("original value", b, \n "datatype is ", type(b))
+print("original value", b,  "datatype is ", type(b))
