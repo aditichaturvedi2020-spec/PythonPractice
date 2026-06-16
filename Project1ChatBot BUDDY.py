@@ -10,11 +10,11 @@ responses = {
     "coding is hard": "every bug of your project makes you a better developer"
     "What are functions?" "It is ablock of reusable code used to perform specific task."
 }
-def response(userQuestion):
-    userQuestion = userQuestion.lower()
+def response(Question):
+    Question = Question.lower()
     for eachkey in responses:
-        if eachkey in userQuestion:
-            return responses(eachkey)
+        if eachkey in Question:
+            return responses[eachkey]
     return "I am not able to tell you that yet. Sorry"
 while True:
     doubt = input("Please ask your doubt, BUDDY will help you :) ")
