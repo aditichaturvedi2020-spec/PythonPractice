@@ -1,4 +1,4 @@
-
+# print table of dewsired number
 x = int(input("enter thr number: "))
 i = 1
 while i <= 10:
