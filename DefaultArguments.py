@@ -4,7 +4,8 @@ def yay(name = "aditi", age = "20"):
     print(name,age)
 yay()
  
-# another example
+# another example with formatted string 
+
 def show(name,age):
     print(f"{name} is {age} yaers old.")
-show("Adiri", 20)
+show("Aditi", 20)
